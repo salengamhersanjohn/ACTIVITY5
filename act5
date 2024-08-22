@@ -1,35 +1,49 @@
 /*
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
-
-package com.mycompany.activity6;
+package com.mycompany.project2;
 
 /**
  *
  * @author User
  */
-import java.util.Scanner;
-        
-public class Activity6 {
-
+public class activity5 {
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
-        System.out.println("Enter your name : ");
-        String fullName = scanner.nextLine();
+        //Primitive datatypes
+    // 1. data 
+        byte byteVar = 127;
+        System.out.println("byte : " + byteVar);
         
-        System.out.println("Enter your age : ");
-        byte age = scanner.nextByte();
+     // 2. short
+        short shortVar = 32727;
+        System.out.println("short : " + shortVar);
         
-        System.out.println("Enter your height : ");
-        double height = scanner.nextDouble();
+     // 3. int 
+        int intVar = 2147483647;
+        System.out.println("int : " + intVar);
         
-        System.out.println("Enter your Gender (M for male and F for): ");
-        char gender = scanner.next().charAt(0);
+     // 4. long
+     
+        long longVar = 9223372036854775807L;
+        System.out.println("long : " + longVar);
+       
         
-        System.out.println("Are you married? (true/false) : ");
-        boolean isMarried = scanner.nextBoolean();
-        
-        
-                
+    // Float data type
+       float floatVar = 2.23213432f;
+       System.out.println("float : " + floatVar);
+       
+    // double data type
+       double doubleVar = 1.543545154654654654654;
+       System.out.println("double : " + doubleVar);
+       
+    // char data type
+       char charVar = 'A';
+       System.out.println("char : " + charVar);
+       
+    // boolean data type
+       boolean booleanVar = true;
+       System.out.println("boolean : " + booleanVar);
     }
 }
+
